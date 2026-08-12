@@ -22,4 +22,4 @@ jobs:
           gradle-version: '8.4'
 
       - name: Check Gradle works
-        run: gradle --version
+        run: gradle projects
